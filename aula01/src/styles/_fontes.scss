@@ -1,0 +1,12 @@
+@font-face{
+    font-family: "padrao";
+    src: url(../fonts/Lemonada-VariableFont_wght.ttf)
+}
+
+@font-face{
+    font-family: "decorativa";
+    src: url(../fonts/Merriweather-Regular.ttf);
+}
+
+$fonte-padrao: "padrao";
+$fonte-decorativa: "decorativa";
