@@ -1,0 +1,24 @@
+
+
+{
+    "clientes": [
+        {
+            "nome": "Valkiria Rodrigues",
+            "cpf": "85764365740",
+            "telefone": "(67) 99856-2417",
+            "endereco": "Duque de caxias"
+        },
+        {
+            "nome": "Lais Matie Hara",
+            "cpf": "98654123687",
+            "telefone": "(67) 99756-3847",
+            "endereco": "Ferroviarios"  
+        },
+        {
+            "nome": "Atati Cumida",
+            "cpf": "87896587410",
+            "telefone": "(67) 85599-7451",
+            "endereco": "Estação comida Boa"
+        }
+    ]
+}
