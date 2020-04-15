@@ -356,12 +356,10 @@ var JogadorView = /*#__PURE__*/function () {
     key: "renderizarTabelaDeJogadores",
     value: function renderizarTabelaDeJogadores() {
       var jogadores = this.jogadorCtrl.recuperarjogadores();
-      var tabela = document.createElement('table');
       var cabecalho = this.criarCabecalhoDaTabelaDeJogadores();
       var corpo = this.criarCorpoDaTabelaDeJogadores(jogadores);
-      tabela.insertAdjacentHTML('beforeend', cabecalho);
-      tabela.insertAdjacentHTML('beforeend', corpo);
-      document.getElementById('visualizacaoJogadores').innerHTML = tabela;
+      var tabela = "<table>".concat(cabecalho).concat(corpo, "</table> ");
+      document.getElementById('texto').innerHTML = tabela;
     }
   }, {
     key: "criarCabecalhoDaTabelaDeJogadores",
@@ -426,7 +424,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50783" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51752" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

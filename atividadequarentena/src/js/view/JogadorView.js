@@ -9,15 +9,12 @@ export default class JogadorView {
     renderizarTabelaDeJogadores() {
         let jogadores = this.jogadorCtrl.recuperarjogadores();
 
-        let tabela = document.createElement('table');
-
         let cabecalho = this.criarCabecalhoDaTabelaDeJogadores();
         let corpo = this.criarCorpoDaTabelaDeJogadores(jogadores);
 
-        tabela.insertAdjacentHTML('beforeend', cabecalho);
-        tabela.insertAdjacentHTML('beforeend', corpo);
+        let tabela = `<table>${cabecalho}${corpo}</table> `
 
-        document.getElementById('visualizacaoJogadores').innerHTML = tabela;
+        document.getElementById('texto').innerHTML = tabela;
     }
 
     criarCabecalhoDaTabelaDeJogadores() {
