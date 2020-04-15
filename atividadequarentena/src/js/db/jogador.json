@@ -1,5 +1,5 @@
 {
-    "dados": [{
+    "jogadores": [{
             "time_campeao": "França",
             "ano": "2018",
             "tecnico": "Deschamps",
@@ -8,7 +8,7 @@
         {
             "time_campeao": "Alemanha",
             "ano": "2014",
-            "tecnico": "Low",
+            "tecnico": "Joachim Löw ",
             "time_derrotado": "Argentina"
         },
         {
@@ -81,7 +81,7 @@
         {
             "time_campeao": "Inglaterra",
             "ano": "1966",
-            "tecnico": "...",
+            "tecnico": "Alfred Ramsey ",
             "time_derrotado": "Alemanha Ocidental"
         },
         {

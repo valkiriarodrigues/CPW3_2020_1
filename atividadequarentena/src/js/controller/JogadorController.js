@@ -1,9 +1,9 @@
-import jogadorDAO from '../model/dao/JogadorDAO'
+import JogadorDAO from '../model/dao/JogadorDAO'
 
 export default class JogadorController {
 
     constructor() {
-        this.jogadorDAO = new jogadorDAO();
+        this.jogadorDAO = new JogadorDAO();
     }
 
     recuperarJogadores() {

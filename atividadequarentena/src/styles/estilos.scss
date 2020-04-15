@@ -2,6 +2,9 @@
 @import 'fontes';
 @import 'img';
 
+body{
+    background-color: #f9fcfc;
+}
 
 #banner{
     color: white;
@@ -13,9 +16,8 @@
 }
 #imagem{
      display: table-cell;
-    width: 50%; /*largura da imagem*/
-    
-        
+     vertical-align: middle;
+     width: 50%;
 }
 
 #texto{
@@ -27,9 +29,79 @@
     color: white;
     background-color: $cor-rodape;
     font-family: $fonte-banner;
-    font-size: 80%;
+    font-size: 100%;
+    padding-top: 30px;
+    
 }
+#copyright{
+    display: table-cell;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+
 #conteudo{
 display: table;
 padding-top: 5px;
+
+
+
+table {
+    border-collapse: collapse;
+    margin: 0px auto 50px auto;
+    width: 95%;
+    font-family: $fonte-banner;
+
+    thead {
+        background-color: $cor-banner;
+        color: white;
+        font-size: 110%;
+    }
+
+    tr {
+
+        // Atinge apenas as linhas pares
+        &:nth-child(even) {
+            background-color: $cor-banner;
+        }
+
+        td {
+            font-size: 100%;
+        }
+
+        th {
+            text-shadow: 1px 1px 1px #555555;
+        }
+
+        th,
+        td {
+            // Regra geral
+            text-align: center;
+            padding: 5px 0px;
+            //border: 1px solid $cor-borda;
+
+            /*
+                Regra específica para a
+                primeira coluna
+             */
+            &:first-child {
+                text-align: left;
+                padding-left: 5px;
+            }
+
+            //&:nth-child()
+
+            /*
+                Regra específica para a
+                última coluna
+             */
+            &:last-child {
+                text-align: right;
+                padding-right: 5px;
+            }
+        }
+    }
 }
+
+}
+

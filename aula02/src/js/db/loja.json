@@ -1,0 +1,21 @@
+{
+    "clientes": [{
+            "nome_cliente": "José da Silva",
+            "cpf": "85764365740",
+            "telefone": "(67) 99999-9999",
+            "endereco": "Rua 5 de dezembro, 287"
+        },
+        {
+            "nome_cliente": "Maria de Sousa",
+            "cpf": "32821758685",
+            "telefone": "(67) 88888-8888",
+            "endereco": "Rua 12 de agosto, 13"
+        },
+        {
+            "nome_cliente": "Lúcia Santos",
+            "cpf": "86798157211",
+            "telefone": "(67) 77777-7777",
+            "endereco": "Av. 23 de julho, 1067"
+        }
+    ]
+}

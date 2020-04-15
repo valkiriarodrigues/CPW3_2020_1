@@ -141,7 +141,7 @@ var Jogador = function Jogador(time_campeao, ano, tecnico, time_derrotado) {
 exports.default = Jogador;
 },{}],"js/db/jogador.json":[function(require,module,exports) {
 module.exports = {
-  "dados": [{
+  "jogadores": [{
     "time_campeao": "França",
     "ano": "2018",
     "tecnico": "Deschamps",
@@ -149,7 +149,7 @@ module.exports = {
   }, {
     "time_campeao": "Alemanha",
     "ano": "2014",
-    "tecnico": "Low",
+    "tecnico": "Joachim Löw ",
     "time_derrotado": "Argentina"
   }, {
     "time_campeao": "Espanha",
@@ -209,7 +209,7 @@ module.exports = {
   }, {
     "time_campeao": "Inglaterra",
     "ano": "1966",
-    "tecnico": "...",
+    "tecnico": "Alfred Ramsey ",
     "time_derrotado": "Alemanha Ocidental"
   }, {
     "time_campeao": "Brasil",
@@ -280,10 +280,10 @@ var JogadorDAO = /*#__PURE__*/function () {
   _createClass(JogadorDAO, [{
     key: "recuperarTodos",
     value: function recuperarTodos() {
-      var jogador = db.jogador.map(function (jogador) {
+      var jogadores = db.jogadores.map(function (jogador) {
         return new _Jogador.default(jogador.time_campeao, jogador.ano, jogador.tecnico, jogador.time_derrotado);
       });
-      return jogador;
+      return jogadores;
     }
   }]);
 
@@ -355,7 +355,7 @@ var JogadorView = /*#__PURE__*/function () {
   _createClass(JogadorView, [{
     key: "renderizarTabelaDeJogadores",
     value: function renderizarTabelaDeJogadores() {
-      var jogadores = this.jogadorCtrl.recuperarjogadores();
+      var jogadores = this.jogadorCtrl.recuperarJogadores();
       var cabecalho = this.criarCabecalhoDaTabelaDeJogadores();
       var corpo = this.criarCorpoDaTabelaDeJogadores(jogadores);
       var tabela = "<table>".concat(cabecalho).concat(corpo, "</table> ");
@@ -391,7 +391,7 @@ var _JogadorView = _interopRequireDefault(require("./view/JogadorView"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var view = new JogadorView();
+var view = new _JogadorView.default();
 
 window.onload = function () {
   return view.renderizarTabelaDeJogadores();
@@ -424,7 +424,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51752" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52621" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

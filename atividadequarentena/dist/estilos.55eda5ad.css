@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "banner";
   src: url(/RobotoSlab-Regular.79096058.ttf);
@@ -6,6 +7,10 @@
   font-family: "corpo";
   src: url(/BalooPaaji2-Regular.096a06a5.ttf);
 }
+body {
+  background-color: #f9fcfc;
+}
+
 #banner {
   color: white;
   background-color: #0bdb0b;
@@ -16,8 +21,8 @@
 
 #imagem {
   display: table-cell;
+  vertical-align: middle;
   width: 50%;
-  /*largura da imagem*/
 }
 
 #texto {
@@ -29,12 +34,62 @@
   color: white;
   background-color: #0e9b0e;
   font-family: "banner";
-  font-size: 80%;
+  font-size: 100%;
+  padding-top: 30px;
+}
+
+#copyright {
+  display: table-cell;
+  padding-right: 10px;
+  padding-bottom: 15px;
 }
 
 #conteudo {
   display: table;
   padding-top: 5px;
+}
+#conteudo table {
+  border-collapse: collapse;
+  margin: 0px auto 50px auto;
+  width: 95%;
+  font-family: "banner";
+}
+#conteudo table thead {
+  background-color: #0bdb0b;
+  color: white;
+  font-size: 110%;
+}
+#conteudo table tr:nth-child(even) {
+  background-color: #0bdb0b;
+}
+#conteudo table tr td {
+  font-size: 100%;
+}
+#conteudo table tr th {
+  text-shadow: 1px 1px 1px #555555;
+}
+#conteudo table tr th,
+#conteudo table tr td {
+  text-align: center;
+  padding: 5px 0px;
+  /*
+      Regra específica para a
+      primeira coluna
+   */
+  /*
+      Regra específica para a
+      última coluna
+   */
+}
+#conteudo table tr th:first-child,
+#conteudo table tr td:first-child {
+  text-align: left;
+  padding-left: 5px;
+}
+#conteudo table tr th:last-child,
+#conteudo table tr td:last-child {
+  text-align: right;
+  padding-right: 5px;
 }
 
 /*# sourceMappingURL=/estilos.55eda5ad.css.map */

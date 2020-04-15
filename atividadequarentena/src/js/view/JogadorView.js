@@ -7,7 +7,7 @@ export default class JogadorView {
     }
 
     renderizarTabelaDeJogadores() {
-        let jogadores = this.jogadorCtrl.recuperarjogadores();
+        let jogadores = this.jogadorCtrl.recuperarJogadores();
 
         let cabecalho = this.criarCabecalhoDaTabelaDeJogadores();
         let corpo = this.criarCorpoDaTabelaDeJogadores(jogadores);
