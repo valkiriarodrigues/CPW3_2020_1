@@ -1,0 +1,133 @@
+{
+    "dados": [{
+            "time_campeao": "França",
+            "ano": "2018",
+            "tecnico": "Deschamps",
+            "time_derrotado": "Croácia"
+        },
+        {
+            "time_campeao": "Alemanha",
+            "ano": "2014",
+            "tecnico": "Low",
+            "time_derrotado": "Argentina"
+        },
+        {
+            "time_campeao": "Espanha",
+            "ano": "2010",
+            "tecnico": "Vicente Del Bosque",
+            "time_derrotado": "Holanda"
+        },
+
+        {
+            "time_campeao": "Italia",
+            "ano": "2006",
+            "tecnico": "Marcello Lippi",
+            "time_derrotado": "França"
+        },
+        {
+            "time_campeao": "Brasil",
+            "ano": "2002",
+            "tecnico": "Luiz Felipe Scolari",
+            "time_derrotado": "Alemanha"
+        },
+        {
+            "time_campeao": "França",
+            "ano": "1998",
+            "tecnico": "Aimé Jacquet",
+            "time_derrotado": "Brasil"
+        },
+        {
+            "time_campeao": "Brasil",
+            "ano": "1994",
+            "tecnico": "Carlos Alberto Pereira",
+            "time_derrotado": "Italia"
+        },
+        {
+            "time_campeao": "Alemanha Ocidental",
+            "ano": "1990",
+            "tecnico": "Beckenbawer",
+            "time_derrotado": "Argentina"
+        },
+        {
+            "time_campeao": "Argentina",
+            "ano": "1986",
+            "tecnico": "Carlos Bilardo",
+            "time_derrotado": "Alemanha Ocidental"
+        },
+        {
+            "time_campeao": "Italia",
+            "ano": "1982",
+            "tecnico": "Enzo Bearzot",
+            "time_derrotado": "Alemanha Ocidental"
+        },
+        {
+            "time_campeao": "Argentina",
+            "ano": "1978",
+            "tecnico": "César Luis Menotti",
+            "time_derrotado": "Holanda"
+        },
+        {
+            "time_campeao": "Alemanha Ocidental",
+            "ano": "1974",
+            "tecnico": "Fußball-Weltmeisterschaft ",
+            "time_derrotado": "Holanda"
+        },
+        {
+            "time_campeao": "Brasil",
+            "ano": "1970",
+            "tecnico": "Mario Zagallo",
+            "time_derrotado": "Italia"
+        },
+        {
+            "time_campeao": "Inglaterra",
+            "ano": "1966",
+            "tecnico": "...",
+            "time_derrotado": "Alemanha Ocidental"
+        },
+        {
+            "time_campeao": "Brasil",
+            "ano": "1962",
+            "tecnico": "Aymoré Moreira",
+            "time_derrotado": "Tchecoslovaquia"
+        },
+        {
+            "time_campeao": "Brasil",
+            "ano": "1958",
+            "tecnico": "Vicente Feola",
+            "time_derrotado": "Suecia"
+        },
+        {
+            "time_campeao": "Alemanha Ocidental",
+            "ano": "1954",
+            "tecnico": "Sepp Herberger",
+            "time_derrotado": "Hungria"
+        },
+        {
+            "time_campeao": "Uruguai",
+            "ano": "1950",
+            "tecnico": "Juan Lopez",
+            "time_derrotado": "Brasil"
+        },
+        {
+            "time_campeao": "Italia",
+            "ano": "1938",
+            "tecnico": "Alfredo Foni",
+            "time_derrotado": "Hungria"
+        },
+        {
+            "time_campeao": "Italia",
+            "ano": "1934",
+            "tecnico": "Luigi Allemandi",
+            "time_derrotado": "Tchecoslovaquia"
+        },
+        {
+            "time_campeao": "Ungria",
+            "ano": "1930",
+            "tecnico": "Ulises Sucedo",
+            "time_derrotado": "Argentina"
+        }
+
+
+        
+    ]
+}

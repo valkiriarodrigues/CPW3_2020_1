@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "banner";
+  src: url(/RobotoSlab-Regular.79096058.ttf);
+}
+@font-face {
+  font-family: "corpo";
+  src: url(/BalooPaaji2-Regular.096a06a5.ttf);
+}
+#banner {
+  color: white;
+  background-color: #0bdb0b;
+  font-family: "banner";
+  text-align: center;
+  font-size: 300%;
+}
+
+#imagem {
+  display: table-cell;
+  width: 50%;
+  /*largura da imagem*/
+}
+
+#texto {
+  display: table-cell;
+  vertical-align: top;
+}
+
+#rodape {
+  color: white;
+  background-color: #0e9b0e;
+  font-family: "banner";
+  font-size: 80%;
+}
+
+#conteudo {
+  display: table;
+  padding-top: 5px;
+}
+
+/*# sourceMappingURL=/estilos.55eda5ad.css.map */

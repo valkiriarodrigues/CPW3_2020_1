@@ -1,0 +1,56 @@
+import JogadorController from  '../controller/JogadorController';
+
+export default class JogadorView {
+
+    constructor() {
+        this.jogadorCtrl = new JogadorController();
+    }
+
+    renderizarTabelaDeJogadores() {
+        let jogadores = this.jogadorCtrl.recuperarjogadores();
+
+        let tabela = document.createElement('table');
+
+        let cabecalho = this.criarCabecalhoDaTabelaDeJogadores();
+        let corpo = this.criarCorpoDaTabelaDeJogadores(jogadores);
+
+        tabela.insertAdjacentHTML('beforeend', cabecalho);
+        tabela.insertAdjacentHTML('beforeend', corpo);
+
+        document.getElementById('visualizacaoJogadores').innerHTML = tabela;
+    }
+
+    criarCabecalhoDaTabelaDeJogadores() {
+        let cabecalho = `
+            <thead>
+                <tr>
+                    <th>Time Campeão</th>
+                    <th>Ano</th>
+                    <th>Técnico</th>
+                    <th>Time Derrotado</th>
+                </tr>
+            </thead>
+        `;
+
+        return cabecalho;
+    }
+
+    criarCorpoDaTabelaDeJogadores(jogadores) {
+        let corpo = '';
+        jogadores.forEach(jogador => {
+            let jogadorStr = `
+                <tr>
+                    <td>${jogador.time_campeao}</td>
+                    <td>${jogador.ano}</td>
+                    <td>${jogador.tecnico}</td>
+                    <td>${jogador.time_derrotado}</td>
+                </tr>
+            `;
+
+            corpo += jogadorStr;
+        });
+
+        let tbody = `<tbody>${corpo}</tbody>`;
+        return tbody;
+    }
+}

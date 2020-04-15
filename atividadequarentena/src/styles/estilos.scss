@@ -1,0 +1,35 @@
+@import 'cores';
+@import 'fontes';
+@import 'img';
+
+
+#banner{
+    color: white;
+    background-color: $cor-banner;
+    font-family: $fonte-banner;
+    text-align: center;
+    font-size: 300%;
+
+}
+#imagem{
+     display: table-cell;
+    width: 50%; /*largura da imagem*/
+    
+        
+}
+
+#texto{
+    display: table-cell;
+    vertical-align: top; 
+}
+
+#rodape{
+    color: white;
+    background-color: $cor-rodape;
+    font-family: $fonte-banner;
+    font-size: 80%;
+}
+#conteudo{
+display: table;
+padding-top: 5px;
+}
