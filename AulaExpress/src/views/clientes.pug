@@ -1,0 +1,18 @@
+extends layout
+
+block conteudo
+    h2 Clientes
+
+    #visualizacaoClientes
+        h3 Clientes cadastrados
+
+        table 
+            thead
+                tr
+                    th Nome
+                    th E-mail
+            tbody
+                each cliente in clientes
+                    tr
+                        td #{cliente.nome}
+                        td #{cliente.email}

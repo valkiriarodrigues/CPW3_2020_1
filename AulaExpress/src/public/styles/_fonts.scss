@@ -1,0 +1,17 @@
+@font-face{
+    font-family: 'padrao';
+    src: url(../fonts/Merriweather-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'negrito';
+    src: url(../fonts/BalooPaaji2-Bold.ttf);
+}
+@font-face{
+    font-family: 'decorativa';
+    src: url(../fonts/Lemonada-Bold.ttf);
+}
+
+$fonte-padrao: 'padrao';
+$fonte-negrito: 'negrito';
+$fonte-decorativa: 'decorativa';

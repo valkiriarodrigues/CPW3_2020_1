@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'padrao';
+  src: url(../fonts/Merriweather-Regular.ttf); }
+
+@font-face {
+  font-family: 'negrito';
+  src: url(../fonts/BalooPaaji2-Bold.ttf); }
+
+@font-face {
+  font-family: 'decorativa';
+  src: url(../fonts/Lemonada-Bold.ttf); }
+
+body {
+  margin: 0; }
+
+#banner {
+  background-color: #1e8bc3;
+  color: white;
+  text-align: center;
+  padding: 50px 0px 30px 0px; }
+
+h1 {
+  font-family: "decorativa";
+  font-size: 250%;
+  text-shadow: px 3px black; }
+
+p {
+  font-family: "padrao"; }
+
+#centro {
+  display: flex;
+  font-family: "padrao"; }
+
+#menu {
+  width: 20%;
+  background-color: #22313f;
+  color: white;
+  padding: 20px 0px 40px 20px; }
+  #menu span {
+    font-size: 150%;
+    font-family: "negrito"; }
+  #menu ul {
+    list-style: none;
+    padding-left: 0; }
+  #menu a {
+    text-decoration: none;
+    color: white; }
+    #menu a:hover {
+      color: #c5eff7; }
+  #menu li {
+    margin-bottom: 7px; }
+
+#conteudo {
+  width: 80%;
+  padding-left: 10px; }
+
+#rodape {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  font-size: 80%;
+  font-family: "negrito"; }
