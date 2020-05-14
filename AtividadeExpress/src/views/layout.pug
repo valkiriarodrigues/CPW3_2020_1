@@ -2,14 +2,28 @@ doctype html
 
 html
     head
+        link(rel="stylesheet", href="styles/estilos.css")
     
         title Valkiria Rodrigues
     body  
         #banner
             h1 Valkiria Rodrigues
-        
-        conteudo
-        block conteudo
+
+        #centro
+            #menu
+                 span Início
+                    ul
+                        li 
+                            a(href='/') Home
+                        li
+                            a(href='/portifolio') Portfólio
+                        li
+                            a(href='bio') Minha Biografia
+                        li
+                            a(href='contato') Meus Contatos
+                
+            conteudo
+                block conteudo
 
         #rodape 
             h4 &copy;valkiria Rodrigues de Oliveira

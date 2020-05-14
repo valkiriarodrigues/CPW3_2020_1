@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'banner';
+  src: url(../fonts/Lobster-Regular.ttf); }
+
+@font-face {
+  font-family: 'texto';
+  src: url(../fonts/DancingScript-Regular.ttf); }
+
+body {
+  margin: 0; }
+
+#banner {
+  background-color: #f62459;
+  color: #fff;
+  text-align: center;
+  font-family: "banner";
+  font-size: 150%;
+  padding: 50px 0px 30px 0px; }
+
+#centro {
+  display: flex;
+  font-family: "banner";
+  width: 80%; }
+  #centro h2 {
+    font-family: "banner";
+    font-size: 130%;
+    margin-left: 20px; }
+  #centro p {
+    font-family: "texto";
+    font-size: 150%;
+    padding: 10px;
+    display: table; }
+  #centro h1 {
+    font-family: "texto";
+    font-size: 200%; }
+
+#menu {
+  background-color: #e26a6a;
+  width: 20%;
+  color: white;
+  padding: 20px 0px 40px 20px; }
+  #menu span {
+    font-size: 150%; }
+  #menu ul {
+    padding-left: 0;
+    list-style: none; }
+  #menu a {
+    text-decoration: none;
+    color: white; }
+  #menu a:hover {
+    color: #f1a9a0; }
+  #menu li {
+    margin-bottom: 7px; }
+
+#conteudo {
+  width: 80%;
+  padding-left: 10px; }
+
+#rodape {
+  background-color: #f62459;
+  font-family: "banner";
+  font-size: 120%;
+  color: white;
+  padding: 20px; }
+
+img {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 50px;
+  width: 50%;
+  box-shadow: 5px 3px 3px #f62459; }
+
+@media only screen and (max-width: 600px) {
+  #banner {
+    padding: 5px;
+    font-size: 105%;
+    margin-bottom: 0; }
+  #menu {
+    padding: 1px;
+    text-align: center;
+    font-size: 105px;
+    margin-bottom: 5px; }
+  p {
+    width: 100%; }
+  img {
+    width: 100%; }
+  li {
+    display: inline;
+    padding: 0px 10px; } }
